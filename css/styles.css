@@ -158,9 +158,6 @@ img {
 .hero-btn:focus {
   background-color: var(--secondary-acent-color);
 }
-.advantages {
-  padding: 94px 0;
-}
 .advantages .container-section {
   padding-bottom: 0;
 }
@@ -195,7 +192,6 @@ img {
 }
 
 .team {
-  padding: 94px 0;
   background: var(--secondary-bg-color);
 }
 .about-us .title,
@@ -249,9 +245,10 @@ img {
   line-height: 1.9;
 }
 .team-list-icon {
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-flex;
+  gap: 10px;
 }
+
 .team-link {
   display: inline-flex;
   justify-content: center;
@@ -272,18 +269,17 @@ img {
 }
 .clients-list {
   display: flex;
-  justify-content: space-evenly;
+  gap: 30px;
 }
 .clients-list .item {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 170px;
-  height: 92px;
 }
 .clients-link {
-  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  /* padding: 16px 32px; */
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
@@ -330,12 +326,14 @@ img {
 .portfolio-list {
   display: flex;
   flex-flow: row wrap;
+  flex-basis: 370px;
+  gap: 30px;
 }
-.portfolio-list .item {
+/* .portfolio-list .item {
   margin-left: 30px;
   margin-bottom: 30px;
   width: 370px;
-}
+} */
 .portfolio-list .item:hover,
 .portfolio-list .item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
