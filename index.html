@@ -20,17 +20,21 @@
 
   <body>
     <header class="header">
-      <div class="container header-nav">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <nav class="nav">
-          <ul class="list">
+      <div class="container header-flex">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-black">Studio</span></a
+        >
+        <nav class="header-nav">
+          <ul class="header-list">
             <li><a href="./index.html" class="link active_page">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li>
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
             <li><a href="#" class="link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list-communication">
-          <li class="item">
+        <ul class="header-list-communication">
+          <li>
             <a href="mailto:info@devstudio.com" class="link link-contact">
               <svg class="icon-link" width="16" height="12">
                 <use href="./icons/icon.svg#icon-mail"></use>
@@ -38,7 +42,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li>
             <a href="tel:+380961111111" class="link link-contact">
               <svg class="icon-link" width="10" height="16">
                 <use href="./icons/icon.svg#icon-phone"></use>
@@ -52,19 +56,16 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
           <button class="hero-btn" type="button">Замовити послугу</button>
         </div>
       </section>
-      <section class="advantages section">
+      <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages-list">
-            <li class="item">
+            <li class="advantages-list-item">
               <div class="icon-advantages">
                 <svg class="" width="70" height="70">
                   <use href="./icons/icon.svg#icon-antenna"></use>
@@ -76,7 +77,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list-item">
               <div class="icon-advantages">
                 <svg class="" width="70" height="70">
                   <use href="./icons/icon.svg#icon-clock"></use>
@@ -88,7 +89,7 @@
                 тягне у себе.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list-item">
               <div class="icon-advantages">
                 <svg class="" width="70" height="70">
                   <use href="./icons/icon.svg#icon-diagram"></use>
@@ -99,7 +100,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="item">
+            <li class="advantages-list-item">
               <div class="icon-advantages">
                 <svg class="" width="70" height="70">
                   <use href="./icons/icon.svg#icon-astronaut"></use>
@@ -142,11 +143,11 @@
           </ul>
         </div>
       </section>
-      <section class="team section">
+      <section class="team">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list">
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/avatar_1.jpg"
@@ -158,28 +159,28 @@
                 <p lang="en" class="subtitle">Product Designer</p>
                 <ul class="team-list-icon">
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="instagram">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="twitter">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="facebook">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="linkedin">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-linkedin"></use>
                       </svg>
@@ -188,7 +189,7 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/avatar_2.jpg"
@@ -200,28 +201,28 @@
                 <p lang="en" class="subtitle">Frontend Developer</p>
                 <ul class="team-list-icon">
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="instagram">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="twitter">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="facebook">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="linkedin">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-linkedin"></use>
                       </svg>
@@ -230,7 +231,7 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/avatar_3.jpg"
@@ -242,28 +243,28 @@
                 <p lang="en" class="subtitle">Marketing</p>
                 <ul class="team-list-icon">
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="instagram">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="twitter">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="facebook">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="linkedin">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-linkedin"></use>
                       </svg>
@@ -272,7 +273,7 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/avatar_4.jpg"
@@ -284,28 +285,28 @@
                 <p lang="en" class="subtitle">UI Designer</p>
                 <ul class="team-list-icon">
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="instagram">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="twitter">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="facebook">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-item-icon">
-                    <a class="team-link" href="#" alt="linkedin">
+                    <a class="team-link" href="#">
                       <svg class="team-link-icon" width="20" height="20">
                         <use href="./icons/icon.svg#icon-linkedin"></use>
                       </svg>
@@ -317,47 +318,47 @@
           </ul>
         </div>
       </section>
-      <section class="clients section">
+      <section class="clients">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
           <ul class="clients-list">
             <li class="item">
-              <a class="clients-link" href="#" atl="client_1">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_1"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="clients-link" href="#" atl="client_2">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_2"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="clients-link" href="#" atl="client_3">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_3"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="clients-link" href="#" atl="client_4">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_4"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="clients-link" href="#" atl="client_5">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_5"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a class="clients-link" href="#" atl="client_6">
+              <a class="clients-link" href="#">
                 <svg class="clients-icon" width="106" height="60">
                   <use href="./icons/icon.svg#icon-client_6"></use>
                 </svg>
@@ -370,8 +371,8 @@
     <footer class="footer">
       <div class="container footer-flex">
         <div class="footer-item">
-          <a href="./index.html" class="logo footer-white"
-            ><span>Web</span>Studio</a
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-black">Studio</span></a
           >
           <address>
             <ul class="address-list">
@@ -401,28 +402,28 @@
           <p class="footer-subtitle">Приєднуйтесь</p>
           <ul class="footer-list-icon">
             <li>
-              <a class="footer-link" href="#" alt="instagram">
+              <a class="footer-link" href="#">
                 <svg class="footer-link-icon" width="20" height="20">
                   <use href="./icons/icon.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-link" href="#" alt="twitter">
+              <a class="footer-link" href="#">
                 <svg class="footer-link-icon" width="20" height="20">
                   <use href="./icons/icon.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-link" href="#" alt="facebook">
+              <a class="footer-link" href="#">
                 <svg class="footer-link-icon" width="20" height="20">
                   <use href="./icons/icon.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-link" href="#" alt="linkedin">
+              <a class="footer-link" href="#">
                 <svg class="footer-link-icon" width="20" height="20">
                   <use href="./icons/icon.svg#icon-linkedin"></use>
                 </svg>
