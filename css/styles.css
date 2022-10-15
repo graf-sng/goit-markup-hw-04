@@ -371,6 +371,7 @@ img {
 .footer-flex {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   column-gap: 70px;
 }
 .footer-subtitle {
